@@ -49,10 +49,10 @@ MetaCoin = Pudding.whisk(metaCoinABI)
 
 # In this scenario, two users will send MetaCoin back and forth, showing
 # how Pudding allows for easy control flow. 
-account_one = "5b42bd01ff..."
-account_two = "e1fd0d4a52..."
+account_one = "0x5b42bd01ff..."
+account_two = "0xe1fd0d4a52..."
 
-contract_address = "8e2e2cf785..."
+contract_address = "0x8e2e2cf785..."
 
 coin = MetaCoin.at(contract_address, {gasLimit: 3141592})
 
